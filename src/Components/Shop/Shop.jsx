@@ -1,11 +1,15 @@
 import React from 'react';
-import Cart from '../Cart';
+import Cart from '../Cart/Cart';
+
+import Products from '../Products/Products';
 
 const Shop = () => {
     return (
         <div>
             <h1>im from shop</h1>
-           <div className="product"></div>
+           <div className="product">
+               <Products/>
+           </div>
            <div className="cart">
                <Cart/>
            </div>

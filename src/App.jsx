@@ -1,5 +1,5 @@
 import './App.css'
-import Shop from './Components/Cart/Shop/Shop'
+import Shop from './Components/Shop/Shop'
 
 function App() {
   return (
