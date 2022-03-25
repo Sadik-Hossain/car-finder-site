@@ -1,8 +1,10 @@
 .products{
     border:2px solid grey;
     margin: 20px ;
+    border-radius: 20px;
+padding: 20px;
 }
 
 .products img{
-    width: 50%;
+    width: 100%;
 }
