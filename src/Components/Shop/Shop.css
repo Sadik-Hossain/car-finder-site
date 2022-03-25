@@ -1,9 +1,17 @@
-.shop{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+.shop {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin: 20px 0;
 }
-.product{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 45px;
-  }
+.product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 45px;
+}
+.cart {
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 80vh;
+  position: sticky;
+  top: 0;
+}
