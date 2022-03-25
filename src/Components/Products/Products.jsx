@@ -11,7 +11,7 @@ const Products = (props) => {
         <h2>{price}</h2>
         <button
           onClick={() => {
-            props.click(id);
+            props.click(props.pd);
           }}
         >
           Add to Cart
