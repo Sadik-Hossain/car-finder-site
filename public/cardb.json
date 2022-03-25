@@ -2,43 +2,55 @@
     {
       "id": "623dfd3cfa923e637ff92b10",
       "price": "$1,530.93",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/hero_banner/2020/11_18_sto_lancio/Huracan_STO.png",
       "name": "Lawson White"
     },
     {
       "id": "623dfd3cf7683382382fd9bb",
       "price": "$3,672.32",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/hero_banner/2020/11_18_sto_lancio/Huracan_STO.png",
       "name": "Sandra Hickman"
     },
     {
       "id": "623dfd3c6efbf6e3abf04f2c",
       "price": "$3,047.86",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/hero_banner/2020/11_18_sto_lancio/Huracan_STO.png",
       "name": "Marcie Chambers"
     },
     {
       "id": "623dfd3cfd67242fc212eca9",
       "price": "$3,343.37",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/hero_banner/2020/11_18_sto_lancio/Huracan_STO.png",
       "name": "Marisol Holcomb"
     },
     {
       "id": "623dfd3c8fc92e315ccb7ae6",
       "price": "$1,143.17",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/hero_banner/2020/11_18_sto_lancio/Huracan_STO.png",
       "name": "Bowman Chan"
     },
     {
       "id": "623dfd3c8512a631279c6228",
       "price": "$3,042.59",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/hero_banner/2020/11_18_sto_lancio/Huracan_STO.png",
       "name": "Ava Payne"
     },
     {
       "id": "623dfd3c02165a3ee4867428",
       "price": "$1,566.61",
-      "picture": "http://placehold.it/32x32",
+      "picture": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/hero_banner/2020/11_18_sto_lancio/Huracan_STO.png",
+      "name": "Rich Contreras"
+    },
+    {
+      "id": "623dfd3c8512a631279c6208",
+      "price": "$3,042.59",
+      "picture": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/hero_banner/2020/11_18_sto_lancio/Huracan_STO.png",
+      "name": "Ava Payne"
+    },
+    {
+      "id": "623dfd3c02165a3ee4867408",
+      "price": "$1,566.61",
+      "picture": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/hero_banner/2020/11_18_sto_lancio/Huracan_STO.png",
       "name": "Rich Contreras"
     }
   ]
