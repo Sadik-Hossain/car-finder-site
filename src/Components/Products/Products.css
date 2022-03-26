@@ -1,8 +1,9 @@
 .products {
   border: 2px solid grey;
-  margin:  20px;
+  margin: 20px;
   border-radius: 10px;
   padding: 20px;
+  background: transparent;
 }
 
 .products img {
@@ -13,7 +14,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #000;
+  color: #fefedf;
+  border-radius: 1rem;
 }
-.products button p{
-margin-right: 10px;
+.products button:hover {
+  color: orange;
+}
+.products button p {
+  margin-right: 10px;
 }

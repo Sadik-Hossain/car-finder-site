@@ -25,7 +25,7 @@ const Carts = (props) => {
           reset([]);
         }}
       >
-      <p>  Choose again</p>
+        <p> Choose again</p>
       </button>
     </div>
   );
