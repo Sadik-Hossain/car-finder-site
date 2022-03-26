@@ -37,7 +37,9 @@ const Footer = () => {
               state represents the information about the component, <br /> state
               can be updated over the time, state is mutable.
             </li>
-            <li>State is used for rendering dynamic changes with the components</li>
+            <li>
+              State is used for rendering dynamic changes with the components
+            </li>
             <li>state cannot be accessed by child components</li>
           </ul>
         </div>
