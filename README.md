@@ -1,5 +1,3 @@
-# lucky-one-Sadik-Hossain
-
 ## Car finder by sadik
 
 ## live site link: https://car-finder-by-sadik.netlify.app/
