@@ -13,8 +13,8 @@ const Shop = () => {
       .then((data) => setProducts(data));
   }, []);
 
-  //* handle Click===============================
-  const click = (data) => {
+  //* addToCart Click===============================
+  const addToCart = (data) => {
     let newName = [...carts, data.name];
     if (newName.length < 5) {
       setCarts(newName);
@@ -27,14 +27,13 @@ const Shop = () => {
     const randomNumber = Math.floor(Math.random() * 4);
     const randomItem = data[randomNumber];
     if (randomItem) {
-      console.log(randomItem);
       setCarts([randomItem]);
     } else {
       alert("select 4 items");
     }
   };
 
-  //* reset/choose again button=====================================
+  //* reset/choose again button =====================================
   const reset = (data) => {
     setCarts(data);
   };
@@ -42,7 +41,7 @@ const Shop = () => {
     <div className="shop">
       <div className="product-container">
         {products.map((product) => (
-          <Products product={product} key={product.id} click={click} />
+          <Products product={product} key={product.id} addToCart={addToCart} />
         ))}
       </div>
       <div className="cart-container">
