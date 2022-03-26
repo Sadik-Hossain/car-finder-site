@@ -1,6 +1,19 @@
 .footer-faq {
+  margin-top: 2rem;
   background: #000;
   color: azure;
   text-align: start;
   padding: 20px;
+}
+.propsvsstate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.propsvsstate h2 {
+  text-align: center;
+}
+li {
+  list-style: none;
+  margin-top: 1rem;
+  text-align: center;
 }

@@ -7,7 +7,8 @@ const Carts = (props) => {
 
   return (
     <div className="cart-info">
-      <h2>selected Item</h2>
+      <h1>selected Items</h1>
+      <hr />
       {data.map((product, index) => (
         <Item data={product} key={index}></Item>
       ))}
