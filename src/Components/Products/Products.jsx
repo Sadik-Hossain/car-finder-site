@@ -7,14 +7,14 @@ const Products = (props) => {
     <div className="products">
       <div className="info">
         <img src={picture} />
-        <h1>{name}</h1>
-        <h2>{price}</h2>
+        <h2>{name}</h2>
+        <h3>{price}</h3>
         <button
           onClick={() => {
             props.addToCart(props.product);
           }}
         >
-          Add to Cart
+          <p>Add to Cart</p>
         </button>
       </div>
     </div>
