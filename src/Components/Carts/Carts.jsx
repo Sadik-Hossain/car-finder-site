@@ -2,15 +2,19 @@ import React from "react";
 import { useState } from "react";
 import Cart from "../Cart/Cart";
 import "./Carts.css";
-const random = () => {
-  const randomNumber = Math.floor(Math.random() * 4);
-  console.log(randomNumber);
-  alert();
-};
-
 
 const Carts = (props) => {
   const { data, reset } = props;
+  const myArr = data;
+  const random = () => {
+    const randomNumber = Math.floor(Math.random() * 4);
+    const random = myArr[randomNumber];
+    if (random) {
+      alert(random);
+    } else {
+      alert('select 4 items');
+    }
+  };
   return (
     <div className="cart-info">
       <h2>selected Item</h2>
@@ -18,7 +22,7 @@ const Carts = (props) => {
         <Cart data={product} key={index}></Cart>
       ))}
 
-      <button>Choose one for me</button>
+      <button onClick={random}>Choose one for me</button>
       <button
         onClick={() => {
           reset([]);
