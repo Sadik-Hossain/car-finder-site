@@ -14,18 +14,15 @@ const Shop = () => {
   }, []);
 
   //* handle Click===============================
-  const click = (id) => {
-    // console.log("clicked", id);
-    console.log(id.name);
-    let newName = [...carts, id.name];
-    console.log(newName.length);
+  const click = (data) => {
+    let newName = [...carts, data.name];
     if (newName.length < 5) {
       setCarts(newName);
-    }
-    else{
-      alert('cannot choose more than 4')
+    } else {
+      alert("cannot choose more than 4");
     }
   };
+  
   return (
     <div className="shop">
       <div className="product">
