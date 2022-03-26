@@ -10,4 +10,10 @@
 }
 .products button {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products button p{
+margin-right: 10px;
 }
