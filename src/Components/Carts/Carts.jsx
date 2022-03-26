@@ -2,27 +2,30 @@ import React from "react";
 import { useState } from "react";
 import Cart from "../Cart/Cart";
 import "./Carts.css";
-
-//* random generator----------------------------------
 const random = () => {
-  Math.floor(Math.random() * 4);
-  // array[random].name
+  const randomNumber = Math.floor(Math.random() * 4);
+  console.log(randomNumber);
+  alert();
 };
 
-//*clear button click------------------------------
-const clearBtn = () => {
-  setSelectedItems([]);
-};
-const Carts = ({ data }) => {
-  const [selectedItems, setSelectedItems] = useState([]);
+
+const Carts = (props) => {
+  const { data, reset } = props;
   return (
     <div className="cart-info">
       <h2>selected Item</h2>
-      {data.map((d, index) => (
-        <Cart data={d} key={index}></Cart>
+      {data.map((product, index) => (
+        <Cart data={product} key={index}></Cart>
       ))}
+
       <button>Choose one for me</button>
-      <button>Choose again</button>
+      <button
+        onClick={() => {
+          reset([]);
+        }}
+      >
+        Choose again
+      </button>
     </div>
   );
 };

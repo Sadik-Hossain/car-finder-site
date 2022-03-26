@@ -18,11 +18,25 @@ const Shop = () => {
     let newName = [...carts, data.name];
     if (newName.length < 5) {
       setCarts(newName);
+      
     } else {
       alert("cannot choose more than 4");
     }
   };
-  
+//* random generator----------------------------------
+const random = () => {
+  const randomNumber = Math.floor(Math.random() * 4);
+  console.log(randomNumber);
+  alert();
+};
+
+
+
+  //* reset/choose again button=====================================
+  const reset = (data) => {
+    console.log(data);
+    setCarts(data);
+  }
   return (
     <div className="shop">
       <div className="product-container">
@@ -31,7 +45,7 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Carts data={carts} />
+        <Carts data={carts} reset={reset}/>
       </div>
     </div>
   );
