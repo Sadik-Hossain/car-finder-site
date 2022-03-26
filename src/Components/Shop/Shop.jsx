@@ -25,12 +25,12 @@ const Shop = () => {
   
   return (
     <div className="shop">
-      <div className="product">
-        {products.map((pd) => (
-          <Products pd={pd} key={pd.id} click={click} />
+      <div className="product-container">
+        {products.map((product) => (
+          <Products product={product} key={product.id} click={click} />
         ))}
       </div>
-      <div className="cart">
+      <div className="cart-container">
         <Carts data={carts} />
       </div>
     </div>

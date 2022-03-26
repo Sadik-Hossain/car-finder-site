@@ -16,7 +16,7 @@ const clearBtn = () => {
 const Carts = ({ data }) => {
   const [selectedItems, setSelectedItems] = useState([]);
   return (
-    <div className="cart">
+    <div className="cart-info">
       <h2>selected Item</h2>
       {data.map((d, index) => (
         <Cart data={d} key={index}></Cart>
